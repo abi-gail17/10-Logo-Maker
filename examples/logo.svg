@@ -1,6 +1,0 @@
-<root>
-    <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="150" cy="100" r="50" fill="#581845"/>
-    <text x="150" y="100" dominant-baseline="middle" text-anchor="middle" fill="#FFD333">ATC</text>
-    </svg>
-</root>	
