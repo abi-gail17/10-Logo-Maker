@@ -73,7 +73,7 @@ function makeSvg ({text, textColor, shape, shapeColor}) {
     const svgShape = makeShape(shape, shapeColor)
     return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
     ${svgShape}
-    <text x="150" y="100" text-anchor="middle" fill="${textColor}">${text}</text>
+    <text x="150" y="100" text-anchor="middle" font-size="50" fill="${textColor}" dy=".35em">${text}</text>
     </svg>`
 }
 

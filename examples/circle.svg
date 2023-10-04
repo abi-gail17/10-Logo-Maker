@@ -1,4 +1,4 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="150" cy="100" r="50" fill="#FFC300"/>
-    <text x="150" y="100" text-anchor="middle" fill="orange">TRI</text>
+    <circle cx="150" cy="100" r="100" fill="purple"/>
+    <text x="150" y="100" text-anchor="middle" font-size="50" fill="white" dy=".s5em">YES</text>
     </svg>
