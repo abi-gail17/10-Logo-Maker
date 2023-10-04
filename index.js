@@ -40,13 +40,13 @@ function validateColor(input) {
         return true; 
     }
 
-    console.log(` Color validation failed for "${input}" Enter a color keyword or hexidecimal value.`);
+    console.log(` Color validation failed for "${input}"`);
     return 'Please enter a valid color keyword or hexadecimal value.';
 }
 
 function validateText(text) {
     const isValid = text.length <= 3;
-    console.log(` Text validation ${isValid ? 'passed' : 'failed'} for "${text}" Enter 3 character or less.`);
+    console.log(` Text validation ${isValid ? 'passed' : 'failed'} for "${text}"`);
     return isValid;
   }
 
@@ -71,12 +71,10 @@ const makeShape = (shape, color) => {
 
 function makeSvg ({text, textColor, shape, shapeColor}) {
     const svgShape = makeShape(shape, shapeColor)
-    return `<root>
-    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
     ${svgShape}
     <text x="150" y="100" text-anchor="middle" fill="${textColor}">${text}</text>
-    </svg>
-</root>\t`
+    </svg>`
 }
 
 function init() {

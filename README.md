@@ -26,6 +26,10 @@
 
   Run "node index.js in your terminal, andswer the prompts, and if successful, a logo will be generated as an .svg file and saved to your machine.
 
+  ![Alt text](mockup/logomakerterminal.png)
+
+  Watch a demo of this application [HERE](https://drive.google.com/file/d/1KreUQZSjJN9DQF0KL3M5dIDR9yhV2DMz/view)
+
   ## Credits
 
   [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4) 
